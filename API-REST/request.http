@@ -6,8 +6,8 @@ POST http://localhost:9000/moneda HTTP/1.1
 Content-Type: application/json
 
 {
-    "codigo_iso": "EUR",
-    "nombre": "Euro"
+    "codigo_iso": "GBP",
+    "nombre": "Libra esterlina"
 }
 
 ###
@@ -18,7 +18,7 @@ POST http://localhost:9000/tasa_de_cambio HTTP/1.1
 Content-Type: application/json
 
 {
-    "moneda_origen": 978 ,
-    "moneda_destino": 124 ,
-    "tasa_cambio": 125
+    "moneda_origen": 1 ,
+    "moneda_destino": 3,
+    "tasa_cambio": 554
 }
