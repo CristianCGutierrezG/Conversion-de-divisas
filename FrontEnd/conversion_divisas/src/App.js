@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import Calculo from "./Components/Calculo";
+import NuevaDivisa from "./Components/NuevaDivisa";
 
 function App() {
 
@@ -12,6 +13,11 @@ function App() {
     monedaOrigen: "Euro",
     monedasDestino: ['Euro'],
     valor: 0,
+  });
+
+  const [datosMoneda, setDatosMoneda] = useState({
+    codigo_iso: "",
+    nombre: "",
   });
 
   useEffect(() => {
@@ -43,9 +49,7 @@ function App() {
         <div className="row">
           <div className="col-7">
             <h2 style={{textAlign: "center"}}>nueva divisa</h2>
-          </div>
-          <div className="col-5">
-            <h2 style={{textAlign: "center"}}>tasa de cambio</h2>
+            <NuevaDivisa monedas={monedas} datos={datosMoneda} setDatos={setDatosMoneda}/>
           </div>
         </div>
       </div>
