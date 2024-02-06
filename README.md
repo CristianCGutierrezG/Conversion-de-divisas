@@ -1,5 +1,6 @@
 <h2 align="center">
   Conversor de divisas con API-Rest<br/>
+</h2>
 <div align="center">
   <img alt="Demo" src="assets/Image/presentationweb-paginapixar.png" />
 </div>
