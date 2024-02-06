@@ -38,7 +38,7 @@ function App() {
 
   return (
     <>
-      <Navbar brand='Conversion de Divisas'></Navbar>
+      <Navbar brand='Conversion de Divisas'/>
       <div className="container">
         <div className="row">
           <div className="col-12">
