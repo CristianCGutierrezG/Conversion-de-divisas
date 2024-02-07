@@ -11,13 +11,13 @@ Aplicacion basica de conversion de divisas. Esta aplicación se ha desarrollado 
 
 Este proyecto fue hecho con las siguientes tecnologias 
 
-#Backend
+# Backend
 - Node.js
 - mySQL
 - Express
 - Nodemon
 
-#Frontend
+# Frontend
 - React.js
 - CSS3
 
@@ -32,7 +32,7 @@ Este proyecto fue hecho con las siguientes tecnologias
 
 **☁️ Manejo de API-Rest con Express**
 
-##Proyecto:
+## Proyecto:
 
 Se realizo una base de datos con dos tablas, una para guardar cada divisa y otra para la relacion entre divisas y su tasa de cambio:
 <div align="center">
