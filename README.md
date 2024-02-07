@@ -7,24 +7,24 @@
 
 Aplicacion basica de conversion de divisas. Esta aplicación se ha desarrollado utilizando una base de datos para almacenar las tasas de cambio actualizadas y cuenta con una API REST para proporcionar acceso a estas tasas de cambio de manera eficiente.
 
-## 🛠 Desarrollado con
+# 🛠 Desarrollado con
 
 Este proyecto fue hecho con las siguientes tecnologias 
 
-# Backend
+## Backend
 - Node.js
 - mySQL
 - Express
 - Nodemon
 
-# Frontend
+## Frontend
 - React.js
 - CSS3
 
-#Editor
+## Editor
 - VsCode
 
-## Caracteristicas
+# Caracteristicas
 
 **🎨 Diseñado React-Bootstrap y Css**
 
@@ -32,7 +32,7 @@ Este proyecto fue hecho con las siguientes tecnologias
 
 **☁️ Manejo de API-Rest con Express**
 
-## Proyecto:
+# Proyecto:
 
 Se realizo una base de datos con dos tablas, una para guardar cada divisa y otra para la relacion entre divisas y su tasa de cambio:
 <div align="center">
