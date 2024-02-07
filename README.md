@@ -26,7 +26,7 @@ Este proyecto fue hecho con las siguientes tecnologias
 
 # Caracteristicas
 
-**🎨 Diseñado React-Bootstrap y Css**
+**🎨 Diseñado React-Bootstrap y CSS**
 
 **📱 Totalmente Responsive**
 
